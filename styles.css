@@ -1,0 +1,99 @@
+/* Battle Game Project 10/27/2023 */
+
+/* 
+font-family: 'Bebas Neue', sans-serif;    Buttons
+font-family: 'Cinzel', serif;             Victory
+font-family: 'Nosifer', sans-serif;       Defeat
+font-family: 'Pixelify Sans', sans-serif;        Text
+*/
+
+body {
+    background-image: url("./Assets/forrest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #5B9BBF;
+    background-attachment: fixed;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+h1 {
+    color: darkkhaki;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 5em;
+    text-shadow: darkorange 2px 4px 2px, black -4px -2px 1px; /*right, bottom, blur(as always, but I always forget)*/
+}
+#button {
+    background-color: darkgoldenrod;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.6em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: white 3px 1px 3px;
+    cursor: pointer;
+    transition: all 1s; /* Cool effect */
+}
+div#button:hover {
+    background-color: black;
+    color: darkgoldenrod;
+}
+#victory {
+    font-family: 'Cinzel', serif;
+    font-size: 2.8em;
+    color: palegreen;
+    text-shadow: white 1px 1px 1px;
+}
+#defeat {
+    font-family: 'Nosifer', sans-serif;
+    font-size: 2.8em;
+    color: #CE1218;
+    text-shadow: 4px 1px 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
